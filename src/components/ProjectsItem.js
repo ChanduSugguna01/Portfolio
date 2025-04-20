@@ -18,7 +18,7 @@ const projectsz = [
         text:"Portfolio",
         
 
-        description:"A Portfolio showcasing my Skills and Projects as a Full Stack Developer. It includes sections for my projects and is a responsive layout. It is build using React, Java Script and CSS. ",
+        description:"A Portfolio showcasing my Skills and Projects as a Full Stack Developer. It includes sections for my projects, certificates and is a responsive layout. It is build using React, Java Script and CSS. ",
     },
     
 
