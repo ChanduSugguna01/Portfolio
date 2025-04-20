@@ -1,0 +1,67 @@
+/* Fade In */
+.fade-in {
+    animation: fadeIn 1s ease forwards;
+    opacity: 0;
+  }
+  
+  .fade-in-delayed {
+    animation: fadeIn 1.5s ease forwards;
+    opacity: 0;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Slide In from Left */
+  .slide-in-left {
+    animation: slideInLeft 1s ease forwards;
+    opacity: 0;
+  }
+  
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Fade Up */
+  .fade-up {
+    animation: fadeUp 1.2s ease forwards;
+    opacity: 0;
+  }
+  
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(25px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Optional: Button hover effect for extra polish */
+  .about-buttons .btn,
+  .about-buttons .btn-outline {
+    transition: transform 0.3s ease;
+  }
+  
+  .about-buttons .btn:hover,
+  .about-buttons .btn-outline:hover {
+    transform: scale(1.05);
+  }
+  

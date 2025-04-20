@@ -1,0 +1,154 @@
+/* Keyframe animations */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Adding animation classes */
+  .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }
+  
+  .fadeInUp {
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+  }
+  
+  .slideInLeft {
+    animation-name: slideInLeft;
+  }
+  
+  .slideInRight {
+    animation-name: slideInRight;
+  }
+  
+  /* Styling for the section */
+  .aboutpage {
+    padding: 50px 0;
+  }
+  
+  .about .sub-title {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .aciklama {
+    font-size: 18px;
+  }
+  
+  .about-buttons .btn {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .about-buttons .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Skills List Styling */
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the buttons horizontally */
+    gap: 15px; /* Adds spacing between the skills */
+  }
+  
+  .skill-item {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    display: inline-block; /* Ensures the skills appear in a row */
+  }
+  
+  /* Hover Effect on Skill Items */
+  .skill-item:hover {
+    background-color: #007bff;
+    color: white;
+    transform: translateY(-5px);
+  }
+  
+  .skill-item:nth-child(odd):hover {
+    background-color: #28a745; /* Green background for odd skills */
+  }
+  
+  .skill-item:nth-child(even):hover {
+    background-color: #dc3545; /* Red background for even skills */
+  }
+  /* Skills List Styling */
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .skill-item {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #d4edff; /* light blue */
+    border: 1px solid #90caff; /* soft blue border */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    display: inline-block;
+  }
+  
+  /* Hover Effect on Skill Items */
+  .skill-item:hover {
+    color: white;
+    transform: translateY(-5px);
+  }
+  
+  .skill-item:nth-child(odd):hover {
+    background-color: #28a745; /* Green for odd skills */
+  }
+  
+  .skill-item:nth-child(even):hover {
+    background-color: #dc3545; /* Red for even skills */
+  }
+  

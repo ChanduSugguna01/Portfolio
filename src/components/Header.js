@@ -22,9 +22,7 @@ function Header()
           <br></br>
           <br></br>
 
-          <div className="col-md-6 logo-col">
-            <img className="img-fluid logo" alt="burhan kocadağ" src={Logo}></img>
-          </div>
+          
         </div>
       </header>
 

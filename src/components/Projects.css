@@ -1,0 +1,56 @@
+/* Fade in from top */
+.fade-in-top {
+    animation: fadeInTop 1s ease-out forwards;
+    opacity: 0;
+  }
+  
+  @keyframes fadeInTop {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Fade in from bottom */
+  .fade-in-bottom {
+    animation: fadeInBottom 1s ease-out forwards;
+    opacity: 0;
+  }
+  
+  @keyframes fadeInBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Slide-up effect for each SwiperSlide */
+  .slide-up {
+    animation: slideUp 0.8s ease forwards;
+    opacity: 0;
+  }
+  
+  @keyframes slideUp {
+    0% {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Optional: smoother Swiper transition */
+  .swiper-slide {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  

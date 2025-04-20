@@ -1,0 +1,49 @@
+/* Fade In */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* Slide In Bottom */
+  .slide-in-bottom {
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+  }
+  
+  @keyframes slideBottom {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  
+  /* Card Zoom In Animation */
+  .card-wrapper {
+    opacity: 0;
+    animation: zoomIn 0.8s ease forwards;
+  }
+  
+  .card-wrapper.delay {
+    animation-delay: 0.5s;
+  }
+  
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9) translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+    }
+  }
+  
+  /* Optional: Hover lift effect */
+  .card-wrapper:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+  }
+  
