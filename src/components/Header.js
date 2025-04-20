@@ -11,7 +11,7 @@ function Header()
             </p>
             <h1 className="purple name">Hema Chandu Sugguna</h1>
             <p className="text-muted">
-            I'm Hema Chandu Sugguna, currently pursuing B.Tech computer science with a passion for full stack web development. During my studies, I
+            I'm currently pursuing B.Tech computer science with a passion for full stack web development. During my studies, I
               focused on building a strong foundation in both frontend and backend technologies, with a particular
               interest in React and Python.
 

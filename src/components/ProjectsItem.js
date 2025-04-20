@@ -13,6 +13,13 @@ const projectsz = [
 
         description:"A full-stack e-commerce platform that allows users to browse, search, and purchase products, featuring an intuitive UI and smooth user experience. ",
     },
+    {
+        id: 3,
+        text:"Portfolio",
+        
+
+        description:"A Portfolio showcasing my Skills and Projects as a Full Stack Developer. It includes sections for my projects and is a responsive layout. It is build using React, Java Script and CSS. ",
+    },
     
 
 

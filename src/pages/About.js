@@ -34,6 +34,14 @@ function About() {
                   <li className="skill-item animated fadeInUp">Java</li>
                 </ul>
               </div>
+              <div>
+                <h4 className="sub-title text-muted hakkimda animated slideInRight">Certificates</h4><br></br>
+                <ul className="skills-list">
+                  <li className="skill-item animated fadeInUp">Python Data Mastery: From Fundamentals to Machine Learning </li>
+                  <li className="skill-item animated fadeInUp">The Bits and Bytes of Computer Networking</li>
+                  <li className="skill-item animated fadeInUp">Generative AI with Large Language Models</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
