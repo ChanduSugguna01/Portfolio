@@ -37,9 +37,9 @@ function About() {
               <div>
                 <h4 className="sub-title text-muted hakkimda animated slideInRight">Certificates</h4><br></br>
                 <ul className="skills-list">
-                <a href="https://files.lpu.in/umsweb/skilldevcourse/SkillDevelopmentCertificates/12212353_450_08-24-2024.pdf"><li className="skill-item animated fadeInUp">Python Data Mastery: From Fundamentals to Machine Learning  </li></a>
-                <a href="https://www.coursera.org/account/accomplishments/verify/WTKFEEW4BC7G"> <li className="skill-item animated fadeInUp">The Bits and Bytes of Computer Networking</li></a>
-                <a href="https://www.coursera.org/account/accomplishments/verify/N3QFLBG42GH9"> <li className="skill-item animated fadeInUp">Generative AI with Large Language Models</li></a>
+                <a href="https://files.lpu.in/umsweb/skilldevcourse/SkillDevelopmentCertificates/12212353_450_08-24-2024.pdf" target="_blank"><li className="skill-item animated fadeInUp">Python Data Mastery: From Fundamentals to Machine Learning  </li></a>
+                <a href="https://www.coursera.org/account/accomplishments/verify/WTKFEEW4BC7G" target="_blank"> <li className="skill-item animated fadeInUp">The Bits and Bytes of Computer Networking</li></a>
+                <a href="https://www.coursera.org/account/accomplishments/verify/N3QFLBG42GH9" target="_blank"> <li className="skill-item animated fadeInUp">Generative AI with Large Language Models</li></a>
                 </ul>
               </div>
             </div>
