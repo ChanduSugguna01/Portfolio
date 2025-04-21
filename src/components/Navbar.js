@@ -34,7 +34,7 @@ function Navbar()
                     tabIndex={0}
                     activeClassName="active"
                     >
-                        About Me 
+                        About
                     </NavLink>
                 </li>
                 <li className="navbar-li">
@@ -59,6 +59,14 @@ function Navbar()
                     >
                         Contact
                     </NavLink>
+                </li>
+                <li className='navbar-li'>
+                    
+                        <a href='/CV.pdf'
+                        
+                        download>
+                        Resume
+                        </a>
                 </li>
 
             </ul>
